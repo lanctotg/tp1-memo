@@ -18,7 +18,7 @@ export default function Appli() {
         () => observerEtatConnexion(setUtilisateur), []
     );
 
-  return (aaa
+  return (
 
           // 1)  Si un utilisateur est connecté :
           utilisateur ?
