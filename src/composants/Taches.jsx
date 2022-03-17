@@ -1,11 +1,13 @@
 import Tache from './Tache';
 import './Taches.scss';
+import {ajouterTache} from "../code/tache-modele";
 
-export default function Taches() {
+
+export default function Taches({ajouterTache}) {
 
   return (
     <section className="Taches">
-      <form onSubmit={e => alert('À compléter')}>
+      <form onSubmit={e => ajouterTache(e)}>
         <input 
           type="text"   
           placeholder="Ajoutez une tâche ..." 
