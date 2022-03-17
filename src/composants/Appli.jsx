@@ -19,7 +19,6 @@ export default function Appli() {
     );
 
   return (
-
           // 1)  Si un utilisateur est connecté :
           utilisateur ?
             <div className="Appli">
