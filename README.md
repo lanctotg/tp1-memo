@@ -1,3 +1,3 @@
 # TP #1 : Application Memo
 
-Code de départ de l'application Memo à utiliser pour le TP #1 du cours 582-4PA.
+Travail pratique #1 de l'application Memo du cours 582-4PA où l'objectif est de créer des memos pour des tâches.

@@ -17,6 +17,7 @@ export default function Controle({etatTaches, utilisateur}) {
       </ToggleButtonGroup>
       <span className="compte">
         ?? tâches restantes
+          {/*?? tâches restantes*/}
       </span>
       <IconButton 
         aria-label="Supprimer toutes les tâches complétées"

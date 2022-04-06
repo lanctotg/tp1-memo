@@ -1,8 +1,7 @@
 import Tache from './Tache';
 import './Taches.scss';
-import {ajouterTache} from "../code/tache-modele";
-
-
+import * as tacheModele from '../code/tache-modele';
+import { useEffect } from 'react';
 
 
 export default function Taches({utilisateur, taches, setTaches}) {
