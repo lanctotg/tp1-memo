@@ -12,6 +12,8 @@ export default function Appli() {
 
     // État utilisateur
     const [utilisateur, setUtilisateur] = useState(null);
+    const [taches, setTaches] = useState([]);
+
 
     // Surveiller l'état de la connexion Firebase Auth
     useEffect (
@@ -30,8 +32,8 @@ export default function Appli() {
                     </div>
                 </header>
 
-                <Taches />
-                <Controle />
+                <Taches utilisateur={utilisateur} taches={taches} setTaches={setTaches} />
+                <Controle taches={taches} setTaches={setTaches}/>
             </div>
 
 
